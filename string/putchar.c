@@ -15,13 +15,13 @@ void main(){
 	putchar('\n');
 	
 	
-	for(i=0;i<4;i++)
+	for(i=0;i<4;i++){
 		putchar(VERT);
 	for(j=0;j<10;j++)
 	    putchar(' ');
 	putchar(VERT);
 	putchar('\n');
-	
+	}
 	putchar(LEFT_BOT);
 	for(i=0;i<10;i++)
 	   putchar(HORIZ);
